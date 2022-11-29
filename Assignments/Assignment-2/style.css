@@ -1,0 +1,61 @@
+*{
+    padding :1;
+    margin :1;
+   
+}
+.number{
+    background : url(map.jpeg) no-repeat;
+    background-size: cover;
+    height : 120vh;
+}
+.logo{
+    width : 140px;
+    height : auto;
+    padding : 1px 10px;
+}
+.center{
+    position: absolute;
+    top : 92%;
+    left : 50%;
+    transform : translate(-50%, -50%);
+    font-family: serif;;
+    user-select:none;  
+}
+.center h1{
+    color : rgb(196, 205, 208);
+    font-size : 40px;
+    font-weight : bold;
+    width : 700px;
+    text-align : center;
+}
+.center h4{
+    color : rgb(196, 205, 208);
+    font-size : 20px;
+    font-weight : bold;
+    width : 700px;
+    text-align : center;
+}
+.center button{
+    margin : 55px 55px;
+}
+.buttons button{
+    height : 30px;
+    width : 120px;
+    font-size : 18px;
+    font-weight : bold;
+    color : #164da1;
+    background : rgb(102, 110, 169);
+    border : 1px solid #35298d;
+    outline : none;
+    cursor : pointer;
+    border-radius: 25px;
+
+}
+.buttons{
+    position: absolute;
+    top : 110%;
+    left : 50%;
+    transform : translate(-50%, -50%);
+    font-family: serif;;
+    user-select:none;  
+}
