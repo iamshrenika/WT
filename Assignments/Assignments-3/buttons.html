@@ -1,65 +1,72 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buttons</title>
-    <link rel="stylesheet" href="buttons.css">
-</head>
-<body>
-    <h1>BUTTONS</h1>
-    <div class="container">
-        <div>
-            <button class="btn btn1">Button</button>
-            <button class="btn btn2">Button</button>
-            <button class="btn btn3">Button</button>
-            <button class="btn btn4">Button</button>
-        </div>
-        <br>
-        <div>
-            <button class="btn btn5">Button</button>
-            <button class="btn btn6">Button</button>
-            <button class="btn btn7">Button</button>
-            <button class="btn btn8">Button</button>
-        </div>
-        <br>
-        <div>
-            <button class="btn btn9">Button</button>
-            <button class="btn btn10">Button</button>
-            <button class="btn btn11">Button</button>
-            <button class="btn btn12">Button</button>
-        </div>
-        <br>
-        <div>
-            <button class="btn btn13">Button</button>
-            <button class="btn btn14">Button</button>
-            <button class="btn btn15">Button</button>
-            <button class="btn btn16">Button</button>
-        </div>
-        </table>
-        <br>
-        <div class="container1">
-                <button class="btn btn17">dotted</button>
-                <button class="btn btn18">dashed</button>
-        </div>
-        <br>
-        <div>
-            <button class="btn btn19">solid</button>
-            <button class="btn btn20">double</button>
-        </div>
-        <br>
-        <div>
-            <button class="btn btn21">groove</button>
-            <button class="btn btn22">ridge</button>
-        </div>
-        <br>
-        <div>
-            <button class="btn btn23">inset</button>
-            <button class="btn btn24">outset</button>
-        </div>
-        
+    <style>
 
-    </div>
+    </style>
+    <link rel="stylesheet" href="buttons.css">
+
+
+</head>
+
+<body>
+    <hr>
+    <hr>
+    <h2>Buttons:</h2>
+    <br>
+    <br>
+
+    <table>
+        <tr class="row-1">
+            <td coldiv="2"></td>
+            <td></td>
+            <td>Primary</td>
+            <td>Secondary</td>
+            <td>Destructive</td>
+            <td class="">Primary</td>
+        </tr>
+        <tr class="row-2">
+            <td class="name">Default/Hover/Press</td>
+            <td class=""><button class="plus-button default hov">+</button></td>
+            <td><button class=" primary btn default hov"> Button </button></td>
+            <td><button class=" secondary btn default hov"> Button </button></td>
+            <td><button class="destructive btn default hov"> Button </button></td>
+            <td class="last-col"><button class="btn default pri2"> Button </button></td>
+        </tr>
+
+        <tr class="row-3">
+            <td class="name">Disabled</td>
+            <td><button class="plus-button disable">+</button></td>
+            <td><button class="primary btn disable"> Button </button></td>
+            <td><button class="secondary btn disable"> Button </button></td>
+            <td><button class="destructive btn disable"> Button </button></td>
+            <td class="last-col"><button class="btn disable pri4"> Button </button></td>
+        </tr>
+        <tr class="row-4">
+            <td colspan="5"></td>
+            <td class="last-col secon">Secondary</td>
+        </tr>
+        <tr class="row-5">
+            <td class="name">Default/Hover/Press</td>
+            <td></td>
+            <td><button class="btn default pri1"> Button </button></td>
+            <td><button class="btn default sec1"> Button </button></td>
+            <td><button class="btn default des1"> Button </button></td>
+            <td class="last-col"><button class="btn default sec2"> Button </button></td>
+        </tr>
+
+        <tr class="row-6">
+            <td class="name">Disabled</td>
+            <td></td>
+            <td><button class="btn disable pri1 last" disabled> Button </button></td>
+            <td><button class="btn disable sec1 last " disabled> Button </button></td>
+            <td><button class="btn disable des1 last" disabled> Button </button></td>
+            <td class="last-col"><button class="btn disable sec3 last" disabled> Button </button></td>
+        </tr>
+    </table>
 </body>
-</html>
+    

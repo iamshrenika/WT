@@ -1,50 +1,82 @@
-div{
-    display: flex;
+h1{
+    text-align: center;
 }
-div button{
-    background-color:white;
-    color:#050200;
-    padding:10px 40px;
-    font-size: 25px;
-    border-radius: 1px; 
-    font-family:sans-serif;
-    margin-bottom:30px;
-    margin-right:70px; 
-}
-#btn1{
-    border-style: dotted;
-}
-#btn2{
-    border-style: 1px solid rgba(7, 5, 5, 0.87);
-    padding:10px 48px 10px 50px;
-}
-#btn3{
-    border-style:groove;
-    border-color: rgb(204, 202, 202);
-    padding-right:35px;
-}
-#btn4{
-    border-style:inset;
-    border-width: 2.5px;
-    border-color: rgb(207, 206, 206);
-    padding-right:55px;
-}
-#btn5{
-    border-style: dashed;
-    padding-right: 30px;
-}
-#btn6{
-    border-style: double; 
-    border-color: rgb(7, 1, 1)
-}
-#btn7{
-    border-style: ridge;
-    border-color: darkgrey;
-    padding-right: 60px;
-}
-#btn8{
-    border-style: outset;
-    border-color: darkgrey;
-    padding-right:48px;
 
+.white{
+     font-style: serif;
+     text-align: center;
+     background-color: white;
+}
+.dotted{
+    border: 3px dotted black;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px 51px;
+}
+.dashed{
+    border: 3px dashed black;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px 50px;
+}
+.solid{
+    border: 3px solid black;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 21px;
+    margin-right: 20px;
+    padding: 20px 61px;
+}
+.double{
+    border: 3px double black;
+    border-width: 3px;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 18px;
+    margin-right: 20px;
+    padding: 20px 55px;
+}
+.groove{
+    border: 3px groove #666967;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 17px;
+    margin-right: 18px;
+    padding: 20px 48px;
+}
+.ridge{
+    border: 3px ridge #9ea1a0;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 15px;
+    padding: 20px 66px;
+}
+.inset{
+    border: 3px inset rgb(190, 185, 185);
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 17px;
+    padding: 20px 61px;
+}
+.outset{
+    border: 3px outset rgb(190, 185, 185);
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px 59px;
 }
